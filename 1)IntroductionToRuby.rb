@@ -44,3 +44,8 @@ puts "Alex".downcase
 puts "### Single-Line Comments ###"
 # I'm a comment, bro!
 
+puts "### Multi-Line Comments ###"
+=begin
+Hello!
+Don't need any # symbols.
+=end
