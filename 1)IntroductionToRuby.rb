@@ -31,3 +31,9 @@ puts "World"
 
 puts "### The .length Method ###"
 puts "My name is Alex".length
+
+puts "### The .reverse Method ###"
+string = "xelA si eman yM"
+puts string
+puts string.reverse
+
