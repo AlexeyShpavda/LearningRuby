@@ -40,3 +40,7 @@ puts string.reverse
 puts "### .upcase & .downcase ###"
 puts "Alex".upcase
 puts "Alex".downcase
+
+puts "### Single-Line Comments ###"
+# I'm a comment, bro!
+
