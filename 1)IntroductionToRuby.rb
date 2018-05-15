@@ -1,3 +1,16 @@
+=begin
+  Contents:
+    Data Types: Numbers, Strings, Booleans
+    Variables
+    Math
+    puts and print
+    The .length Method
+    The .reverse Method
+    .upcase & .downcase
+    Single-Line Comments
+    Multi-Line Comments
+=end
+
 puts "### Data Types: Numbers, Strings, Booleans ###"
 num = 1
 puts num
