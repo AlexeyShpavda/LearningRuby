@@ -8,6 +8,19 @@ puts boolean
 string = "Ruby"
 puts string
 
-puts "### Variables###"
+puts "### Variables ###"
 number = 100
 puts number
+
+puts "### Math ###"
+number1  = 2**5
+puts number1
+
+number2 = 100%3
+puts number2
+
+number3  = 2*5
+puts number3
+
+number4 = 9/3
+puts number4
