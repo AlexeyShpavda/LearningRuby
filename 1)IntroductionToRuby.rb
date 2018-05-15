@@ -24,3 +24,7 @@ puts number3
 
 number4 = 9/3
 puts number4
+
+puts "### puts and print###"
+print "Hello "
+puts "World"
