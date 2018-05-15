@@ -37,3 +37,6 @@ string = "xelA si eman yM"
 puts string
 puts string.reverse
 
+puts "### .upcase & .downcase ###"
+puts "Alex".upcase
+puts "Alex".downcase
