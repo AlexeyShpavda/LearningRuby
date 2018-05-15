@@ -1,4 +1,4 @@
-# Data Types: Numbers, Strings, Booleans
+puts "### Data Types: Numbers, Strings, Booleans ###"
 num = 1
 puts num
 
@@ -7,3 +7,7 @@ puts boolean
 
 string = "Ruby"
 puts string
+
+puts "### Variables###"
+number = 100
+puts number
