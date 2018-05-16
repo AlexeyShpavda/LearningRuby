@@ -56,3 +56,13 @@ puts false || false # => false
 puts "### Not ###"
 puts !true # => false
 puts !false # => true
+
+puts "### Combining Boolean Operators ###"
+# boolean_1 = (3 < 4 || false) && (false || true)
+puts boolean_1 = true
+
+# boolean_2 = !true && (!true || 100 != 5**2)
+puts boolean_2 = false
+
+# boolean_3 = true || !(true || false)
+puts boolean_3 = true
