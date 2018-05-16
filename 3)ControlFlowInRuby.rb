@@ -40,3 +40,9 @@ puts 18 > 17
 puts 22 < 31
 puts 10 >= 10
 puts -13 <= 13
+
+puts "### And ###"
+puts true && true # => true
+puts true && false # => false
+puts false && true # => false
+puts false && false # => false
