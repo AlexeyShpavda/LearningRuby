@@ -9,3 +9,12 @@ if 3 > 9
 else
   puts "That means I'll get printed!"
 end
+
+puts "### elsif ###"
+if 9 < 3
+  puts "nine is less than three!"
+elsif 9 > 3
+  puts "nine is greater than three!"
+else
+  puts "nine equals three!"
+end
