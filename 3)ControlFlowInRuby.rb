@@ -34,3 +34,9 @@ y = 3
 if x == y
   puts "x and y are equal!"
 end
+
+puts "### Less Than or Greater Than ###"
+puts 18 > 17
+puts 22 < 31
+puts 10 >= 10
+puts -13 <= 13
