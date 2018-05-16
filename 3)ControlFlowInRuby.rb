@@ -27,3 +27,10 @@ unless are_you_hungry
 else
   puts "Time to eat!"
 end
+
+puts "### Equal or Not? ###"
+x = 3
+y = 3
+if x == y
+  puts "x and y are equal!"
+end
