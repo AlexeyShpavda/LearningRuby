@@ -1,3 +1,11 @@
+=begin
+  Contents:
+    Prompting the User
+    Getting Input
+    Printing the Output
+    Formatting with String Methods
+=end
+
 puts "### Prompting the User ###"
 puts "What's your first name?"
 
