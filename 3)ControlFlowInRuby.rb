@@ -52,3 +52,7 @@ puts true || true # => true
 puts true || false # => true
 puts false || true # => true
 puts false || false # => false
+
+puts "### Not ###"
+puts !true # => false
+puts !false # => true
