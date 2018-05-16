@@ -18,3 +18,12 @@ elsif 9 > 3
 else
   puts "nine equals three!"
 end
+
+puts "### unless ###"
+are_you_hungry = false
+
+unless are_you_hungry
+  puts "I'm writing Ruby programs!"
+else
+  puts "Time to eat!"
+end
