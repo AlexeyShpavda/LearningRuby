@@ -1,3 +1,17 @@
+=begin
+  Contents:
+    if
+    else
+    elsif
+    unless
+    Equal or Not?
+    Less Than or Greater Than
+    And
+    Or
+    Not
+    Combining Boolean Operators
+=end
+
 puts "### if ###"
 if 3 < 9
   puts "I'm getting printed because three is less than nine!"
