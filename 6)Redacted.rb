@@ -8,3 +8,9 @@ puts "### The .split Method ###"
 words = text.split(" ")
 print words
 puts
+
+puts "### Redacted! ###"
+words.each do |word|
+  print word
+end
+puts
