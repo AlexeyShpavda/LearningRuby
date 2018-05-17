@@ -22,3 +22,13 @@ for num in 1..10
   print num, " "
 end
 puts
+
+puts "### Inclusive and Exclusive Ranges ###"
+for number in 1..15
+  print number, " "
+end
+puts
+for number in 1...15
+  print number, " "
+end
+puts
