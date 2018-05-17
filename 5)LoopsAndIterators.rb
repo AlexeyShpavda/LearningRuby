@@ -51,3 +51,8 @@ loop do
   break if i <= 0
 end
 puts
+
+puts "### Saving Multiple Values ###"
+array = [1, 2, 3, 4, 5]
+print array
+puts
