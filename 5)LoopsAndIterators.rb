@@ -16,3 +16,9 @@ puts
 
 puts "### More Assignment Operators ###"
 counter += 1 # counter = counter + 1
+
+puts "### The 'For' Loop ###"
+for num in 1..10
+  print num, " "
+end
+puts
