@@ -1,3 +1,11 @@
+=begin
+  Contents:
+    Getting the User's Input
+    The .split Method
+    Redacted!
+    Control Flow Know-How
+=end
+
 puts "### Getting the User's Input ###"
 print "Text to search through: "
 text = gets.chomp
