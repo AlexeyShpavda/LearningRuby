@@ -1,3 +1,12 @@
+=begin
+  Contents:
+    Getting User Input
+    Downcase!
+    Setting Up Branches
+    Returning the Final Thtring
+=end
+
+
 puts "### Getting User Input ###"
 print "Enter the Thtring, pleathe!: "
 string = gets.chomp
