@@ -65,3 +65,6 @@ end
 puts
 array.each { |x| print "#{x} " }
 puts
+
+puts "### The .times Iterator ###"
+3.times { puts "My story of learning ruby!" }
