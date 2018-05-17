@@ -14,3 +14,12 @@ words.each do |word|
   print word
 end
 puts
+
+puts "### Control Flow Know-How ###"
+words.each do |word|
+  if word != redact
+    print word + " "
+  else
+    print "REDACTED "
+  end
+end
