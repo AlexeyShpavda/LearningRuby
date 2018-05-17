@@ -11,3 +11,6 @@ if string.include? "s"
 else
   puts "Nothing to do here!"
 end
+
+puts "### Returning the Final Thtring ###"
+puts "Your string is: #{string}"
