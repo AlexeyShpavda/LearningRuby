@@ -56,3 +56,12 @@ puts "### Saving Multiple Values ###"
 array = [1, 2, 3, 4, 5]
 print array
 puts
+
+puts "### The .each Iterator ###"
+array = [1,2,3,4,5]
+array.each do |x|
+  print "#{x} "
+end
+puts
+array.each { |x| print "#{x} " }
+puts
