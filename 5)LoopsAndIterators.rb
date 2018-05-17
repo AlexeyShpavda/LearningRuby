@@ -12,3 +12,7 @@ until counter > 10
   print counter, " "
   counter = counter + 1
 end
+puts
+
+puts "### More Assignment Operators ###"
+counter += 1 # counter = counter + 1
