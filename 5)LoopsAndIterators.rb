@@ -32,3 +32,12 @@ for number in 1...15
   print number, " "
 end
 puts
+
+puts "### The Loop Method ###"
+i = 20
+loop do
+  print "#{i} "
+  break if i <= 0
+  i -= 1
+end
+puts
