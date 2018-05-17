@@ -4,3 +4,10 @@ string = gets.chomp
 
 puts "### Downcase! ###"
 string.downcase!
+
+puts "### Setting Up Branches ###"
+if string.include? "s"
+  string.gsub!(/s/, "th")
+else
+  puts "Nothing to do here!"
+end
