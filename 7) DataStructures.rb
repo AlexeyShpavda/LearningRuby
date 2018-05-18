@@ -39,3 +39,10 @@ puts animals["Stevie"]
 puts "### Accessing Hash Values ###"
 puts animals["Volt"]
 puts animals["Stevie"]
+
+puts "### Iterating Over Arrays ###"
+languages = ["HTML", "CSS", "JavaScript", "Ruby"]
+
+languages.each do |language|
+  puts language
+end
