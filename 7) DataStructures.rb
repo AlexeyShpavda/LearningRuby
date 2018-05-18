@@ -46,3 +46,13 @@ languages = ["HTML", "CSS", "JavaScript", "Ruby"]
 languages.each do |language|
   puts language
 end
+
+puts "### Iterating Over Multidimensional Arrays ###"
+s = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+s.each do |sub_array|
+  sub_array.each do |el|
+    print "#{el} "
+  end
+  puts
+end
