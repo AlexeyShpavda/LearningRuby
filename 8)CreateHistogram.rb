@@ -17,3 +17,6 @@ puts "### Sorting the Hash ###"
 frequencies = frequencies.sort_by do |word, count|
   count
 end
+
+puts "### Reverse the Hash ###"
+frequencies.reverse!
