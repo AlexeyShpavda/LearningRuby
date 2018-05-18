@@ -30,3 +30,6 @@ animals = Hash.new
 animals["Volt"] = "dog"
 
 puts animals["Volt"]
+
+puts "### Adding to a Hash ###"
+animals["Stevie"] = "cat"
