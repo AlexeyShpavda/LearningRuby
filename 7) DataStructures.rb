@@ -11,3 +11,7 @@ puts "### Arrays of Non-Numbers ###"
 string_array = ["Hellow", "World"]
 print string_array
 puts
+
+puts "### Arrays of Arrays ###"
+multi_d_array = [[0,1,2,3],[1,0,1,2],[2,1,0,1],[3,2,1,0]]
+multi_d_array.each { |x| puts "#{x}\n" }
