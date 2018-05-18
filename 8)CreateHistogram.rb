@@ -12,3 +12,8 @@ puts "### Iterating Over the Array ###"
 words.each do |word|
   frequencies[word]+=1
 end
+
+puts "### Sorting the Hash ###"
+frequencies = frequencies.sort_by do |word, count|
+  count
+end
