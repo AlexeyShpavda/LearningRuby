@@ -20,3 +20,8 @@ end
 
 puts "### Reverse the Hash ###"
 frequencies.reverse!
+
+puts "### Iterating Over the Hash ###"
+frequencies.each do |word, count|
+  puts word + " " + count.to_s
+end
