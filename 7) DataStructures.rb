@@ -33,3 +33,9 @@ puts animals["Volt"]
 
 puts "### Adding to a Hash ###"
 animals["Stevie"] = "cat"
+
+puts animals["Stevie"]
+
+puts "### Accessing Hash Values ###"
+puts animals["Volt"]
+puts animals["Stevie"]
