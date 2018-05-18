@@ -1,3 +1,14 @@
+=begin
+  Contents:
+    Get input from the user
+    Building the Words Array
+    Creating the Frequencies Hash
+    Iterating Over the Array
+    Sorting the Hash
+    Reverse the Hash
+    Iterating Over the Hash
+=end
+
 puts "### Get input from the user ###"
 puts "Text please: "
 text = gets.chomp
