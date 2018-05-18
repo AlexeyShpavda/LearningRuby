@@ -15,3 +15,12 @@ puts
 puts "### Arrays of Arrays ###"
 multi_d_array = [[0,1,2,3],[1,0,1,2],[2,1,0,1],[3,2,1,0]]
 multi_d_array.each { |x| puts "#{x}\n" }
+
+puts "### Introduction to Hashes ###"
+my_hash = {
+    "name" => "Alex",
+    "age" => 19,
+}
+
+puts my_hash["name"]
+puts my_hash["age"]
