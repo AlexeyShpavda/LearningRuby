@@ -24,3 +24,9 @@ my_hash = {
 
 puts my_hash["name"]
 puts my_hash["age"]
+
+puts "### Using Hash.new ###"
+animals = Hash.new
+animals["Volt"] = "dog"
+
+puts animals["Volt"]
