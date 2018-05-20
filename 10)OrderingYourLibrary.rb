@@ -1,3 +1,11 @@
+=begin
+  Contents:
+    Defining Our Method
+    Default Parameters
+    Sorting
+    Sorting With Control Flow
+=end
+
 puts "### Defining Our Method ###"
 # def alphabetize
 # end
