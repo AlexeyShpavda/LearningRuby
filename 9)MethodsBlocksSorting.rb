@@ -45,3 +45,5 @@ capitalize("shpavda") # prints "Shpavda"
 # block that capitalizes each string in the array
 ["alex", "shpavda"].each {|string| puts "#{string[0].upcase}#{string[1..-1]}"} # prints "Alex", then "Shpavda"
 
+puts "### Using Code Blocks ###"
+[1, 2, 3, 4, 5].each { |i| puts i*5 }
