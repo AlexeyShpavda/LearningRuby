@@ -1,3 +1,18 @@
+=begin
+  Contents:
+    Method Syntax
+    Parameters and Arguments
+    Splat!
+    Return
+    Blocks Are Like Nameless Methods
+    How Blocks Differ from Methods
+    Using Code Blocks
+    Introduction to Sorting
+    Foundations
+    The Combined Comparison Operators
+    Getting Technical
+=end
+
 puts "### Method Syntax ###"
 def puts_1_to_10
   (1..10).each { |i| print "#{i} "}
