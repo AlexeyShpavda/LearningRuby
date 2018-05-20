@@ -26,3 +26,10 @@ end
 
 puts sum(1, 2)
 
+puts "### Blocks Are Like Nameless Methods ###"
+1.times do
+  puts "I'm Alex"
+end
+
+3.times { puts "I'm learning Ruby" }
+
