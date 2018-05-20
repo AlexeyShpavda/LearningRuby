@@ -47,3 +47,9 @@ capitalize("shpavda") # prints "Shpavda"
 
 puts "### Using Code Blocks ###"
 [1, 2, 3, 4, 5].each { |i| puts i*5 }
+
+puts "### Introduction to Sorting ###"
+array = [4, 3, 8, 7, 1, 5, 6, 2, 9]
+array.sort!
+print array
+puts
