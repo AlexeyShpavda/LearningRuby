@@ -53,3 +53,8 @@ array = [4, 3, 8, 7, 1, 5, 6, 2, 9]
 array.sort!
 print array
 puts
+
+puts "### Foundations ###"
+books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
+books.sort!
+puts books
