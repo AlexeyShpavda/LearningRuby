@@ -68,3 +68,11 @@ book_2 = "A Brief History of Time"
   1 if vice versa, and 0 if they are of equal weight
 =end
 puts book_1 <=> book_2
+
+puts "### Getting Technical ###"
+books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
+
+print books.sort { |firstBook, secondBook| firstBook <=> secondBook }
+puts
+print books.sort { |firstBook, secondBook| secondBook <=> firstBook }
+puts
