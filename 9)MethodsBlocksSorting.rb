@@ -58,3 +58,13 @@ puts "### Foundations ###"
 books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
 books.sort!
 puts books
+
+puts "### The Combined Comparison Operators ###"
+book_1 = "A Wrinkle in Time"
+book_2 = "A Brief History of Time"
+
+=begin
+  It should return -1 if the first block parameter should come before the second,
+  1 if vice versa, and 0 if they are of equal weight
+=end
+puts book_1 <=> book_2
