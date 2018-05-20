@@ -18,3 +18,11 @@ def welcome(greeting, *friends)
 end
 
 welcome("What up", "Ian", "Zoe", "Zenas", "Eleanor")
+
+puts "### Return ###"
+def sum(num1, num2)
+  return num1 + num2
+end
+
+puts sum(1, 2)
+
