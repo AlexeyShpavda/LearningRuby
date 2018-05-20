@@ -33,3 +33,15 @@ end
 
 3.times { puts "I'm learning Ruby" }
 
+puts "### How Blocks Differ from Methods ###"
+# method that capitalizes a word
+def capitalize(string)
+  puts "#{string[0].upcase}#{string[1..-1]}"
+end
+
+capitalize("alex") # prints "Alex"
+capitalize("shpavda") # prints "Shpavda"
+
+# block that capitalizes each string in the array
+["alex", "shpavda"].each {|string| puts "#{string[0].upcase}#{string[1..-1]}"} # prints "Alex", then "Shpavda"
+
