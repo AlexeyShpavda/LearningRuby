@@ -11,3 +11,10 @@ def square(n)
 end
 
 square(12)
+
+puts "### Splat! ###"
+def welcome(greeting, *friends)
+  friends.each { |friend| puts "#{greeting}, #{friend}!" }
+end
+
+welcome("What up", "Ian", "Zoe", "Zenas", "Eleanor")
