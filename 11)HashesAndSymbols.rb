@@ -76,3 +76,10 @@ strings.each do |s|
   symbols.push(s.intern) # == symbols.push(s.to_sym)
 end
 print symbols
+
+puts "### All Aboard the Hash Rocket! ###"
+numbers = {
+    :one => "one",
+    :two => "two",
+    :three => "three"
+}
