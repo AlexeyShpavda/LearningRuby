@@ -66,3 +66,13 @@ strings.each do |s|
   symbols.push(s.to_sym)
 end
 print symbols
+puts
+
+puts "### Many Paths to the Same Summit ###"
+strings = ["HTML", "CSS", "JavaScript", "Ruby"]
+symbols = []
+
+strings.each do |s|
+  symbols.push(s.intern) # == symbols.push(s.to_sym)
+end
+print symbols
