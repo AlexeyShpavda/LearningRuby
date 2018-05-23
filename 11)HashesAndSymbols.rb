@@ -57,3 +57,12 @@ symbol_hash = {
     :two => 2,
     :three => 3
 }
+
+puts "### Converting Between Symbols and Strings ###"
+strings = ["HTML", "CSS", "JavaScript", "Ruby"]
+symbols = []
+
+strings.each do |s|
+  symbols.push(s.to_sym)
+end
+print symbols
