@@ -1,3 +1,22 @@
+=begin
+  Contents:
+    The Story So Far
+    Iterating Over Hashes
+    Nil: a Formal Introduction
+    Setting Own Default
+    A Key of a Different Color
+    What's a Symbol?
+    Symbol Syntax
+    What are Symbols Used For?
+    Converting Between Symbols and Strings
+    Many Paths to the Same Summit
+    All Aboard the Hash Rocket!
+    The Hash Rocket Has Landed
+    Dare to Compare
+    Becoming More Selective
+    More Methods, More Solutions
+=end
+
 puts "### The Story So Far ###"
 my_hash = Hash.new
 
