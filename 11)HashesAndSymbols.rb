@@ -44,3 +44,9 @@ puts "string".object_id
 
 puts :symbol.object_id
 puts :symbol.object_id
+
+puts "### Symbol Syntax ###"
+# :my symbol  Don't do this!
+# :my_symbol  Do this instead.
+
+my_first_symbol = :hello
