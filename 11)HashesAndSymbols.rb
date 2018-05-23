@@ -12,3 +12,14 @@ matz = { "First name" => "Yukihiro",
 matz.each do |key, value|
   puts value
 end
+
+puts "### Nil: a Formal Introduction ###"
+creatures = { "weasels" => 0,
+              "puppies" => 6,
+              "platypuses" => 3,
+              "canaries" => 1,
+              "Heffalumps" => 7,
+              "Tiggers" => 1
+}
+
+creatures["birds"]
