@@ -35,3 +35,12 @@ menagerie = { :foxes => 2,
               :canaries => 4,
               :ham => 1
 }
+
+puts "### What's a Symbol? ###"
+puts "string" == :string # false
+
+puts "string".object_id
+puts "string".object_id
+
+puts :symbol.object_id
+puts :symbol.object_id
