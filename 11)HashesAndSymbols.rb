@@ -76,10 +76,19 @@ strings.each do |s|
   symbols.push(s.intern) # == symbols.push(s.to_sym)
 end
 print symbols
+puts
 
 puts "### All Aboard the Hash Rocket! ###"
+# '=>' is sometimes nicknamed the hash rocket style.
 numbers = {
     :one => "one",
     :two => "two",
     :three => "three"
+}
+
+puts "### The Hash Rocket Has Landed ###"
+numbers = {
+    one: "one",
+    two: "two",
+    three: "three"
 }
