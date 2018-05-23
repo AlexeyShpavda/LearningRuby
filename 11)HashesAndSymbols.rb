@@ -50,3 +50,10 @@ puts "### Symbol Syntax ###"
 # :my_symbol  Do this instead.
 
 my_first_symbol = :hello
+
+puts "### What are Symbols Used For? ###"
+symbol_hash = {
+    :one => 1,
+    :two => 2,
+    :three => 3
+}
