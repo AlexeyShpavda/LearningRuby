@@ -23,3 +23,6 @@ creatures = { "weasels" => 0,
 }
 
 creatures["birds"]
+
+puts "### Setting Own Default ###"
+no_nil_hash = Hash.new("Hello")
