@@ -1,7 +1,13 @@
 puts "### Setting Up ###"
 movies = {
     Interstellar: 4.8,
-    TheDarkKnight: 4.7
+    TheDarkKnight: 4.7,
+    Awake: 3.1,
+    Avatar: 4.5,
+    StarWars: 4.6,
+    Divergent: 4.7,
+    Inception: 4.9,
+    ThePrestige: 4.9
 }
 
 puts "What would you like to do? "
