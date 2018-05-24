@@ -94,32 +94,67 @@ end
 =end
 
 puts "### Update ###"
+=begin
 case choice
-when "add"
-  puts "What movie would you like to add? "
-  title = gets.chomp
-  if movies[title.to_sym].nil?
-    puts "What rating does the movie have? "
-    rating = gets.chomp
-    movies[title.to_sym] = rating.to_i
+  when "add"
+    puts "What movie would you like to add? "
+    title = gets.chomp
+    if movies[title.to_sym].nil?
+      puts "What rating does the movie have? "
+      rating = gets.chomp
+      movies[title.to_sym] = rating.to_i
+    else
+      puts "That movie already exists! Its rating is #{movies[title.to_sym]}."
+    end
+    puts movies
+  when "update"
+    puts "What movie would you like to update? "
+    title = gets.chomp
+    if movies[title.to_sym].nil?
+      puts "Error!"
+    else
+      puts "What rating does the movie have? "
+      rating = gets.chomp
+      movies[title.to_sym] = rating.to_i
+    end
+  when "display"
+    puts "Movies!"
+  when "delete"
+    puts "Deleted!"
   else
-    puts "That movie already exists! Its rating is #{movies[title.to_sym]}."
-  end
-  puts movies
-when "update"
-  puts "What movie would you like to update? "
-  title = gets.chomp
-  if movies[title.to_sym].nil?
     puts "Error!"
+end
+=end
+
+puts "### Display ###"
+case choice
+  when "add"
+    puts "What movie would you like to add? "
+    title = gets.chomp
+    if movies[title.to_sym].nil?
+      puts "What rating does the movie have? "
+      rating = gets.chomp
+      movies[title.to_sym] = rating.to_i
+    else
+      puts "That movie already exists! Its rating is #{movies[title.to_sym]}."
+    end
+    puts movies
+  when "update"
+    puts "What movie would you like to update? "
+    title = gets.chomp
+    if movies[title.to_sym].nil?
+      puts "Error!"
+    else
+      puts "What rating does the movie have? "
+      rating = gets.chomp
+      movies[title.to_sym] = rating.to_i
+    end
+  when "display"
+    movies.each do |movie, rating|
+      puts "#{movie}: #{rating}"
+    end
+  when "delete"
+    puts "Deleted!"
   else
-    puts "What rating does the movie have? "
-    rating = gets.chomp
-    movies[title.to_sym] = rating.to_i
-  end
-when "display"
-  puts "Movies!"
-when "delete"
-  puts "Deleted!"
-else
-  puts "Error!"
+    puts "Error!"
 end
