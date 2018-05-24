@@ -1,3 +1,15 @@
+=begin
+  Contents:
+    Setting Up
+    The Case Statement
+    Prompting: Redux!
+    Not My Type
+    Error! Error!
+    Update
+    Display
+    Delete
+=end
+
 puts "### Setting Up ###"
 movies = {
     Interstellar: 4.8,
