@@ -29,6 +29,7 @@ end
 =end
 
 puts "### Prompting: Redux! ###"
+=begin
 case choice
   when "add"
     puts "What movie would you like to add? "
@@ -44,4 +45,24 @@ case choice
     puts "Deleted!"
   else
     puts "Error!"
+end
+=end
+
+puts "### Not My Type ###"
+case choice
+when "add"
+  puts "What movie would you like to add? "
+  title = gets.chomp
+  puts "What rating does the movie have? "
+  rating = gets.chomp
+  movies[title.to_sym] = rating.to_i
+  puts movies
+when "update"
+  puts "Updated!"
+when "display"
+  puts "Movies!"
+when "delete"
+  puts "Deleted!"
+else
+  puts "Error!"
 end
