@@ -38,3 +38,10 @@ puts favorite_book
 
 favorite_book = "Nice!"
 puts favorite_book
+
+puts "### Implicit Return ###"
+def sum(a, b)
+  a + b
+end
+
+puts sum(333,667)
