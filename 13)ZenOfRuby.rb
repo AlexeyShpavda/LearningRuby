@@ -69,3 +69,7 @@ puts "### The Right Tool for the Job ###"
 puts "### Up the Down Staircase ###"
 100.downto(95) { |number| puts number }
 "L".upto("P") { |letter| puts letter }
+
+puts "### Call and Response ###"
+puts [1, 2, 3].respond_to?(:push)
+puts [1, 2, 3].respond_to?(:to_sym)
