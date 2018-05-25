@@ -82,3 +82,12 @@ print alphabet, "\n"
 caption = "Leningrad ft. Gluk’oZа "
 caption << "(ft. ST) Ju-Ju"
 print caption, "\n"
+
+puts "### String Interpolation ###"
+favorite_things = ["Ruby", "Cars", "Tea"]
+
+puts "A few of my favorite things:"
+
+favorite_things.each do |thing|
+  puts "I love #{thing}!"
+end
