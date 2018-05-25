@@ -5,7 +5,7 @@
 
 puts "### Omit Needless Words ###"
 =begin
-  require 'prime'   # This is a module.
+  require 'prime'
 
   def first_n_primes(n)
 
@@ -22,15 +22,43 @@ puts "### Omit Needless Words ###"
 
 first_n_primes(10)
 =end
-require 'prime'   # This is a module.
+
+=begin
+  require 'prime'
+
+  def first_n_primes(n)
+
+    return "n must be an integer." unless n.is_a? Integer
+
+    return "n must be greater than 0." if n <= 0
+
+    return Prime.first n
+  end
+
+  puts first_n_primes(10)
+=end
+
+puts "### Less is More ###"
+=begin
+  require 'prime'
+
+  def first_n_primes(n)
+
+    return "n must be an integer." unless n.is_a? Integer
+
+    return "n must be greater than 0." if n <= 0
+
+    return Prime.first n
+  end
+
+  puts first_n_primes(10)
+=end
+require 'prime'
 
 def first_n_primes(n)
-
   return "n must be an integer." unless n.is_a? Integer
-
   return "n must be greater than 0." if n <= 0
-
-  return Prime.first n
+  Prime.first n
 end
 
 puts first_n_primes(10)
