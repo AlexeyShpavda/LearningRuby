@@ -73,3 +73,12 @@ puts "### Up the Down Staircase ###"
 puts "### Call and Response ###"
 puts [1, 2, 3].respond_to?(:push)
 puts [1, 2, 3].respond_to?(:to_sym)
+
+puts "### Being Pushy ###"
+alphabet = ["a", "b", "c"]
+alphabet << "d"
+print alphabet, "\n"
+
+caption = "Leningrad ft. Gluk’oZа "
+caption << "(ft. ST) Ju-Ju"
+print caption, "\n"
