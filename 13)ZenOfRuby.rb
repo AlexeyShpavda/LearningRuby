@@ -4,3 +4,6 @@ ruby_is_ugly = false
 
 puts "Ruby is eloquent!" if ruby_is_eloquent
 puts "Ruby's not ugly!" unless ruby_is_ugly
+
+puts "### A Simpler 'If' ###"
+puts "It's true!" if true
