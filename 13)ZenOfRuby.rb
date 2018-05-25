@@ -65,3 +65,7 @@ puts a && b
 puts "### The Right Tool for the Job ###"
 3.times { puts "Ruby!" }
 [1, 2, 3].each { |element| puts element * 10 }
+
+puts "### Up the Down Staircase ###"
+100.downto(95) { |number| puts number }
+"L".upto("P") { |letter| puts letter }
