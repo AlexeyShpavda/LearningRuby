@@ -25,3 +25,16 @@ case greeting
   when "Finnish" then puts "Haloo!"
   else puts "I don't know that language!"
 end
+
+puts "### Conditional Assignment ###"
+favorite_book = nil
+puts favorite_book
+
+favorite_book ||= "Was nil became the value"
+puts favorite_book
+
+favorite_book ||= "Nice!" # Our variable already has a value
+puts favorite_book
+
+favorite_book = "Nice!"
+puts favorite_book
