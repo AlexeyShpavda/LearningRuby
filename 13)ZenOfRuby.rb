@@ -13,3 +13,15 @@ puts "It's false!" unless false
 
 puts "### One Good Turn Deserves a Ternary ###"
 puts 12 < 14 ? "12 is less than 14" : "12 is not less than 14"
+
+puts "### When and Then: The Case Statement ###"
+puts "Hello there! What is your native language?"
+greeting = gets.chomp
+
+case greeting
+  when "English" then puts "Hello!"
+  when "French" then puts "Bonjour!"
+  when "German" then puts "Guten Tag!"
+  when "Finnish" then puts "Haloo!"
+  else puts "I don't know that language!"
+end
