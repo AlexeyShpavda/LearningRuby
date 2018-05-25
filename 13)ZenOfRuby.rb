@@ -10,3 +10,6 @@ puts "It's true!" if true
 
 puts "### The One-Line Unless ###"
 puts "It's false!" unless false
+
+puts "### One Good Turn Deserves a Ternary ###"
+puts 12 < 14 ? "12 is less than 14" : "12 is not less than 14"
