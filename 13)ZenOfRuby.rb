@@ -61,3 +61,7 @@ end
 puts a || b
 puts "------"
 puts a && b
+
+puts "### The Right Tool for the Job ###"
+3.times { puts "Ruby!" }
+[1, 2, 3].each { |element| puts element * 10 }
