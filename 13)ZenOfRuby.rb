@@ -1,3 +1,20 @@
+=begin
+  Contents:
+    Ruby is a Delight
+    A Simpler 'If'
+    The One-Line Unless
+    One Good Turn Deserves a Ternary
+    When and Then: The Case Statement
+    Conditional Assignment
+    Implicit Return
+    Short-Circuit Evaluation
+    The Right Tool for the Job
+    Up the Down Staircase
+    Call and Response
+    Being Pushy
+    String Interpolation
+=end
+
 puts "### Ruby is a Delight ###"
 ruby_is_eloquent = true
 ruby_is_ugly = false
