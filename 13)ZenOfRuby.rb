@@ -16,7 +16,8 @@ puts 12 < 14 ? "12 is less than 14" : "12 is not less than 14"
 
 puts "### When and Then: The Case Statement ###"
 puts "Hello there! What is your native language?"
-greeting = gets.chomp
+#greeting = gets.chomp
+greeting = "English"
 
 case greeting
   when "English" then puts "Hello!"
@@ -45,3 +46,18 @@ def sum(a, b)
 end
 
 puts sum(333,667)
+
+puts "### Short-Circuit Evaluation ###"
+def a
+  puts "A was evaluated!"
+  return true
+end
+
+def b
+  puts "B was also evaluated!"
+  return true
+end
+
+puts a || b
+puts "------"
+puts a && b
