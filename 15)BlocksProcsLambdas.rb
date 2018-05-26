@@ -39,3 +39,11 @@ def double(num)
 end
 
 double(5) {|num| puts num * 2}
+
+puts "### Proc Syntax ###"
+floats = [1.2, 3.45, 0.91, 7.727, 11.42, 482.911]
+
+round_down = Proc.new {|x| x.floor}
+
+ints = floats.collect(&round_down)
+print ints, "\n"
