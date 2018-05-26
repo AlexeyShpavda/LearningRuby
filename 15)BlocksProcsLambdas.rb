@@ -32,3 +32,10 @@ end
 yield_name("Eric") { |n| puts "My name is #{n}." }
 
 yield_name("Alex") { |n| puts "My name is #{n}." }
+
+puts "### Practice ###"
+def double(num)
+  yield(num)
+end
+
+double(5) {|num| puts num * 2}
