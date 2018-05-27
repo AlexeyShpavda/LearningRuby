@@ -140,3 +140,17 @@ under_100 = Proc.new {|elem| elem < 100}
 puts "### Passing Proc to a Method ###"
 youngsters = ages.select(&under_100)
 puts youngsters
+
+puts "### Creating a Lambda ###"
+crew = {
+    captain: "Picard",
+    first_officer: "Riker",
+    lt_cdr: "Data",
+    lt: "Worf",
+    ensign: "Ro",
+    counselor: "Troi",
+    chief_engineer: "LaForge",
+    doctor: "Crusher"
+}
+
+first_half = lambda {|key, value| value < "M"}
