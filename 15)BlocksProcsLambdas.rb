@@ -102,3 +102,5 @@ symbolize = lambda {|param| param.to_sym}
 
 symbols = strings.collect(&symbolize)
 print symbols, "\n"
+
+puts "### Lambdas vs. Procs ###"
