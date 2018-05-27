@@ -178,6 +178,6 @@ crew = {
 
 first_half = lambda {|key, value| value < "M"}
 
-puts "### Passing Your Lambda to a Method ###"
+puts "### Passing Lambda to a Method ###"
 a_to_m = crew.select(&first_half)
 puts a_to_m
