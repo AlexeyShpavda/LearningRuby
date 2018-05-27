@@ -81,3 +81,8 @@ greeter(&phrase)
 puts "### Call Me Maybe ###"
 hi = Proc.new { puts "Hello!"}
 hi.call
+
+puts "### Symbols, Meet Procs ###"
+strings_array = ["1", "2", "3"]
+numbers_array = strings_array.map(&:to_i)
+print numbers_array, "\n"
