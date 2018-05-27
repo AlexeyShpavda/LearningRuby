@@ -94,3 +94,11 @@ def lambda_demo(a_lambda)
 end
 
 lambda_demo(lambda { puts "I'm the lambda!" })
+
+puts "### Lambda Syntax ###"
+strings = ["leonardo", "donatello", "raphael", "michaelangelo"]
+
+symbolize = lambda {|param| param.to_sym}
+
+symbols = strings.collect(&symbolize)
+print symbols, "\n"
