@@ -77,3 +77,7 @@ end
 phrase = Proc.new { puts "Hello there!" }
 
 greeter(&phrase)
+
+puts "### Call Me Maybe ###"
+hi = Proc.new { puts "Hello!"}
+hi.call
