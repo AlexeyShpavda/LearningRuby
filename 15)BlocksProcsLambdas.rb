@@ -1,3 +1,26 @@
+=begin
+  Contents:
+    I Know This!
+    Collect 'Em All
+    Learning to Yield
+    Yielding With Parameters
+    Practice
+    Proc Syntax
+    Why Procs?
+    Practice
+    Call Me Maybe
+    Symbols, Meet Procs
+    The Ruby Lambda
+    Lambda Syntax
+    Lambdas vs. Procs
+    Practice
+    And More Practice
+    Creating a Proc
+    Passing Proc to a Method
+    Creating a Lambda
+    Passing Your Lambda to a Method
+=end
+
 puts "### I Know This! ###"
 3.times { puts "I'm a block!"}
 
