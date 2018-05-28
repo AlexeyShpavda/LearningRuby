@@ -29,3 +29,12 @@ class MyClass
   $my_variable = "Hello!"
 end
 puts $my_variable
+
+puts "### For Instance ###"
+class Human
+  def initialize(name, age, profession)
+    @name = name
+    @age = age
+    @profession = profession
+  end
+end
