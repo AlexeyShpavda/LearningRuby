@@ -14,3 +14,12 @@ class Animal
     @name = name
   end
 end
+
+puts "### Instantiating First Object ###"
+class Person
+  def initialize(name)
+    @name = name
+  end
+end
+
+matz = Person.new("Yukihiro")
