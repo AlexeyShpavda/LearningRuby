@@ -23,3 +23,9 @@ class Person
 end
 
 matz = Person.new("Yukihiro")
+
+puts "### Naming Variables ###"
+class MyClass
+  $my_variable = "Hello!"
+end
+puts $my_variable
