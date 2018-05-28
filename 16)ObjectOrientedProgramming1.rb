@@ -7,3 +7,10 @@ class Car
   def initialize
   end
 end
+
+puts "### What's in a @name? ###" # Instance variable
+class Animal
+  def initialize(name)
+    @name = name
+  end
+end
