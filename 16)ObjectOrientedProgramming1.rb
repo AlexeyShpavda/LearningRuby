@@ -143,6 +143,22 @@ end
 =end
 
 puts "### Getting Classier ###"
+=begin
+class Message
+  def initialize(from, to)
+    @from = from
+    @to = to
+    @@messages_sent +=1
+  end
+  @@messages_sent = 0
+end
+=end
+
+puts "### Forge an Object in the Fires of Mount Ruby ###"
+# my_message = Message.new("Me", "Company")
+
+puts "### Inheriting a Fortune ###"
+=begin
 class Message
   def initialize(from, to)
     @from = from
@@ -152,5 +168,29 @@ class Message
   @@messages_sent = 0
 end
 
-puts "### Forge an Object in the Fires of Mount Ruby ###"
 my_message = Message.new("Me", "Company")
+
+class Email < Message
+  def initialize(subject)
+    @subject = subject
+  end
+end
+=end
+
+puts "### Up, Up, and Away! ###"
+class Message
+  @@messages_sent = 0
+  def initialize(from, to)
+    @from = from
+    @to = to
+    @@messages_sent +=1
+  end
+end
+
+class Email < Message
+  def initialize(from, to)
+    super
+  end
+end
+
+my_message = Message.new("Ian", "Alex")
