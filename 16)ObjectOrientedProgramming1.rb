@@ -131,3 +131,11 @@ end
 
 class DragonThree < CreatureThree; end
 # class DragonThree < PersonThree; end
+
+puts "### Class Basics ###"
+class Message
+  def initialize(from, to)
+    @from = from
+    @to = to
+  end
+end
