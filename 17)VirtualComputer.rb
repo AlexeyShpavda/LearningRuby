@@ -1,3 +1,13 @@
+=begin
+  Contents:
+    Create Class
+    Fancify Initialize Method
+    Have a Little Class
+    Getting More Creative
+    Who are the Users?
+    Instantiation Nation
+=end
+
 puts "### Create Class ###"
 =begin
 class Computer
