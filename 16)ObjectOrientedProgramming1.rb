@@ -97,3 +97,21 @@ class Dragon < Creature
     "Breathes fire!"
   end
 end
+
+puts "### When Good isn't Good Enough ###"
+class CreatureTwo
+  def initialize(name)
+    @name = name
+  end
+
+  def fight
+    "Punch to the chops!"
+  end
+end
+
+class DragonTwo < CreatureTwo
+  def fight
+    puts "Instead of breathing fire. . . "
+    super
+  end
+end
