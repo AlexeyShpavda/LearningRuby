@@ -57,3 +57,16 @@ matz = Person.new("Yukihiro")
 dhh = Person.new("David")
 
 puts "Number of Person instances: #{Person.number_of_instances}"
+
+puts "### Watch Your Step ###"
+class ApplicationError
+  def display_error
+    puts "Error!"
+  end
+end
+
+class SuperBadError < ApplicationError
+end
+
+err = SuperBadError.new
+err.display_error
