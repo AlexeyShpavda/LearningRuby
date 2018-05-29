@@ -18,6 +18,7 @@ end
 =end
 
 puts "### Have a Little Class ###"
+=begin
 class Computer
   @@users = {}
   def initialize(username, password)
@@ -25,5 +26,23 @@ class Computer
     @password = password
     @files = {}
     @@users[username] = password
+  end
+end
+=end
+
+puts "### Getting More Creative ###"
+class Computer
+  @@users = {}
+  def initialize(username, password)
+    @username = username
+    @password = password
+    @files = {}
+    @@users[username] = password
+  end
+
+  def create(filename)
+    time = Time.now
+    @files[filename] = time
+    puts "#{filename} was created at #{time} by #{@username}. "
   end
 end
