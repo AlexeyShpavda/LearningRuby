@@ -1,3 +1,24 @@
+=begin
+  Contents:
+    Class Syntax
+    Classing It Up
+    What's in a @name?
+    Instantiating First Object
+    Naming Variables
+    For Instance
+    Twice the @, Twice as Classy
+    Watch Your Step
+    Inheritance Syntax
+    Override!
+    When Good isn't Good Enough
+    There Can Be Only One!
+    Class Basics
+    Getting Classier
+    Forge an Object in the Fires of Mount Ruby
+    Inheriting a Fortune
+    Up, Up, and Away!
+=end
+
 puts "### Class Syntax ###"
 class NewClass
 end
