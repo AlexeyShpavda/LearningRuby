@@ -115,3 +115,19 @@ class DragonTwo < CreatureTwo
     super
   end
 end
+
+puts "### There Can Be Only One! ###"
+class CreatureThree
+  def initialize(name)
+    @name = name
+  end
+end
+
+class PersonThree
+  def initialize(name)
+    @name = name
+  end
+end
+
+class DragonThree < CreatureThree; end
+# class DragonThree < PersonThree; end
