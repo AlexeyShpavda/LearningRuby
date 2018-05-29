@@ -80,3 +80,20 @@ end
 
 class MyApp < Application
 end
+
+puts "### Override! ###"
+class Creature
+  def initialize(name)
+    @name = name
+  end
+
+  def fight
+    "Punch to the chops!"
+  end
+end
+
+class Dragon < Creature
+  def fight
+    "Breathes fire!"
+  end
+end
