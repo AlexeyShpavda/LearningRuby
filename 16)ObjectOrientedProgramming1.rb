@@ -151,3 +151,6 @@ class Message
   end
   @@messages_sent = 0
 end
+
+puts "### Forge an Object in the Fires of Mount Ruby ###"
+my_message = Message.new("Me", "Company")
