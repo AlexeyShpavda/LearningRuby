@@ -82,3 +82,8 @@ end
 
 puts "### Resolve to Keep Learning ###"
 puts Math::PI
+
+puts "### A Few Requirements ###"
+require 'date'
+
+puts Date.today
