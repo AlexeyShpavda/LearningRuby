@@ -198,3 +198,8 @@ class Application
     12345
   end
 end
+
+puts "### Module Magic ###"
+module Languages
+  FAVE = "Ruby"
+end
