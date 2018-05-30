@@ -203,3 +203,19 @@ puts "### Module Magic ###"
 module Languages
   FAVE = "Ruby"
 end
+
+puts "### Mixin for the Win ###"
+module Languages
+  FAVE = "Ruby"
+end
+
+class Master
+  include Languages
+  def initialize; end
+  def victory
+    puts FAVE
+  end
+end
+
+total = Master.new
+total.victory
