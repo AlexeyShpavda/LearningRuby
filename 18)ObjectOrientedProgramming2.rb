@@ -79,3 +79,6 @@ puts "### Module Syntax ###"
 module MyLibrary
   FAVE_BOOK = "The Master and Margarita"
 end
+
+puts "### Resolve to Keep Learning ###"
+puts Math::PI
