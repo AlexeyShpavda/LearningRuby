@@ -155,3 +155,28 @@ class Samurai
     @shogun = shogun
   end
 end
+
+puts "### Extend Your Knowledge ###"
+module ThePresent
+  def now
+    puts "It's #{Time.new.hour > 12 ? Time.new.hour - 12 : Time.new.hour}:#{Time.new.min} #{Time.new.hour > 12 ? 'PM' : 'AM'} (GMT)."
+  end
+end
+
+class TheHereAnd
+  extend ThePresent
+end
+
+TheHereAnd.now
+
+puts "### A Matter of Public Knowledge ###"
+class Application
+  attr_accessor :status
+  def initialize; end
+
+  public
+
+  def print_status
+    puts "All systems go!"
+  end
+end
