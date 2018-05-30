@@ -1,3 +1,24 @@
+=begin
+  Contents:
+    Quick Review: Building a Class
+    Going Public
+    Private! Keep Out!
+    attr_reader, attr_writer
+    attr_accessor
+    What's a Module?
+    Module Syntax
+    Resolve to Keep Learning
+    A Few Requirements
+    Feeling Included
+    The Marriage of Modules and Classes
+    Imitating Multiple Inheritance
+    Extend Your Knowledge
+    A Matter of Public Knowledge
+    Private Affairs
+    Module Magic
+    Mixin for the Win
+=end
+
 puts "### Quick Review: Building a Class ###"
 class ClassName
   def method_name(parameter)
