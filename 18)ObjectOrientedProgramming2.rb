@@ -60,3 +60,22 @@ class Person
     @job = job
   end
 end
+
+puts "### What's a Module? ###"
+module Circle
+
+  PI = 3.141592653589793
+
+  def Circle.area(radius)
+    PI * radius**2
+  end
+
+  def Circle.circumference(radius)
+    2 * PI * radius
+  end
+end
+
+puts "### Module Syntax ###"
+module MyLibrary
+  FAVE_BOOK = "The Master and Margarita"
+end
