@@ -142,11 +142,11 @@ class Account
   public
 
   def display_balance(pin_number)
-    puts pin_number == @pin ? "Balance: $#{@balance}." : "pin_error"
+    puts pin_number == pin ? "Balance: $#{@balance}." : pin_error
   end
 
   def deposit(pin_number, amount)
-    if pin_number == @pin
+    if pin_number == pin
       @balance += amount
       puts "Deposit #{amount}."
     else
@@ -155,7 +155,7 @@ class Account
   end
 
   def withdraw(pin_number, amount)
-    if pin_number == @pin
+    if pin_number == pin
       @balance -= amount
       puts "Withdrew #{amount}."
     else
@@ -175,3 +175,8 @@ class Account
 end
 
 checking_account = Account.new("Alex", 1000000)
+
+puts checking_account.name
+puts checking_account.display_balance(1234)
+checking_account.deposit(1234, 1000)
+puts checking_account.display_balance(1234)
