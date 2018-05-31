@@ -31,6 +31,7 @@ end
 =end
 
 puts "### Displaying the Balance ###"
+=begin
 class Account
   attr_reader :name, :balance
   def initialize(name, balance=100)
@@ -38,8 +39,45 @@ class Account
     @balance = balance
   end
 
+  public
+
   def display_balance(pin_number)
-    puts @pin == pin_number ? "Balance: $#{@balance}." : "pin_error"
+    puts pin_number == @pin ? "Balance: $#{@balance}." : "pin_error"
+  end
+
+  private
+
+  def pin
+    @pin = 1234
+  end
+
+  def pin_error
+    "Access denied: incorrect PIN."
+  end
+end
+=end
+
+puts "### Making a Withdrawal ###"
+class Account
+  attr_reader :name, :balance
+  def initialize(name, balance=100)
+    @name = name
+    @balance = balance
+  end
+
+  public
+
+  def display_balance(pin_number)
+    puts pin_number == @pin ? "Balance: $#{@balance}." : "pin_error"
+  end
+
+  def withdraw(pin_number, amount)
+    if pin_number == @pin
+      @balance -= amount
+      puts "Withdrew #{amount}."
+    else
+      puts pin_error
+    end
   end
 
   private
